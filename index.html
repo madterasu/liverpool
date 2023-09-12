@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liverpool FC</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    <header>
+        <div class="jumbotron">
+            <h1>LIVERPOOL F.C.</h1>
+            <p>Achmad Maulana Rochman | Bangkit 2023</p>
+        </div>
+        <nav class="nav-list">
+            <ul>
+                <li><a href="#kota">Kota</a></li>
+                <li><a href="#klub">Klub</a></li>
+                <li><a href="#sejarah">Sejarah</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="content">
+            <article id="sejarah" class="card">
+                <h2 id="sejarah">Sejarah</h2>
+                <img src="img/match.jpeg" alt="sejarah" class="featured-image" onclick="openModal('img/match.jpeg')">
+                <p>
+                    Proident eiusmod laborum ipsum pariatur ullamco sint dolore commodo sit deserunt nisi deserunt est ad. Cillum cupidatat qui fugiat sit. Duis consectetur mollit mollit sit voluptate officia non nostrud tempor deserunt amet quis ea. Deserunt sint aliqua eu exercitation Lorem irure pariatur pariatur tempor id. Mollit labore nisi et aliquip velit. Eiusmod culpa dolore laborum qui anim aliquip irure aute tempor est et commodo deserunt.
+                </p>
+                <p>
+                    Aliquip ipsum amet officia in elit eiusmod. Est laboris et laborum nisi adipisicing mollit proident mollit. Aliquip eu laborum est aute mollit officia aute veniam non culpa laboris fugiat ullamco commodo.
+                </p>
+                <p>
+                    Dolore esse elit ad do commodo culpa irure ea aliquip mollit magna laboris. Duis irure incididunt ea labore adipisicing non eiusmod. Deserunt excepteur sunt consequat sunt. Id ad adipisicing ex duis ex. Velit culpa qui dolor laborum officia commodo consectetur labore veniam. Esse aute ea et laboris Lorem nisi sunt adipisicing sit nisi reprehenderit ut. Anim consectetur id ex adipisicing ipsum do consectetur exercitation irure labore exercitation id id.
+                </p>
+                <p>
+                    Enim id culpa nulla nulla excepteur irure sit non minim magna excepteur pariatur. Ipsum commodo adipisicing esse occaecat cillum voluptate. Officia veniam nisi anim fugiat excepteur nostrud. Culpa anim adipisicing aliqua deserunt voluptate adipisicing aliqua laboris. Lorem nisi occaecat ut excepteur. Aliqua et excepteur nulla officia aliqua commodo.
+                </p>
+            </article>
+    
+            <article id="klub" class="card">
+                <h2 id="klub">Klub</h2>
+                <img src="img/anfield.jpg" alt="klub" class="featured-image" onclick="openModal('img/anfield.jpg')">
+                <p>
+                    Labore pariatur officia ipsum et commodo culpa mollit. Consectetur quis deserunt aute veniam eiusmod officia ullamco dolore aliquip est officia velit voluptate. Culpa non commodo in eu velit elit minim proident reprehenderit.
+                </p>
+                <p>
+                    Do sint labore amet duis consequat incididunt laboris. Et ea quis ut ipsum adipisicing labore non ut. Sit reprehenderit ea officia pariatur. Quis enim ullamco anim consectetur excepteur sit et laborum minim ad reprehenderit ullamco. Qui elit sit mollit consequat. Sunt incididunt labore incididunt proident sint adipisicing aute est est cillum. Occaecat in excepteur aliquip irure eiusmod consectetur commodo in proident sunt cupidatat.
+                </p>
+            </article>
+    
+            <article id="kota" class="card">
+                <h2 id="kota">Kota</h2>
+                <img src="img/pier-head.jpg" alt="kota" class="featured-image" onclick="openModal('img/pier-head.jpg')">
+                <p>
+                    Nulla laboris labore id esse enim id nisi nostrud consectetur nisi laboris labore tempor. Fugiat reprehenderit pariatur ut fugiat dolor dolore qui pariatur adipisicing laboris. Cupidatat sit sit culpa deserunt sunt voluptate cupidatat tempor. Ullamco cupidatat est amet occaecat sint reprehenderit exercitation sunt. Ut eu ut ea excepteur reprehenderit sunt et mollit labore ut eu aute ex adipisicing. Nulla cupidatat consequat esse nulla ex tempor ut pariatur amet consectetur minim consectetur. Esse magna minim cupidatat quis officia pariatur deserunt duis minim.
+                </p>
+            </article>
+            <div id="myModal" class="modal">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <img id="modal-image" src="" alt="Gambar Pop-up">
+            </div>
+            <script src="js/script.js"></script>
+        </div>
+        <aside>
+            <article class="profile card">
+                <header>
+                    <h2>Liverpool</h2>
+                    <p>"The Reds"</p>
+                    <figure>
+                        <img src="img/liverpool.png">
+                        <figcaption>You Never Walk Alone</figcaption>
+                    </figure>
+                </header>
+                <section>
+                    <h3>Informasi Lainnya</h3>
+                    <table>
+                        <tr>
+                            <th>Negara</th>
+                            <td>Inggris</td>
+                        </tr>
+                        <tr>
+                            <th>Kota</th>
+                            <td>Liverpool</td>
+                        </tr>
+                        <tr>
+                            <th>Didirikan</th>
+                            <td>15 Maret 1892</td>
+                        </tr>
+                        <tr>
+                            <th>Liga</th>
+                            <td>Liga Utama Inggris</td>
+                        </tr>
+                        <tr>
+                            <th></th>
+                            <td></td>
+                        </tr>
+                    </table>
+                </section>
+            </article>
+        </aside>
+    </main>
+    <footer>
+        &copy; Bangkit 2023, Achmad Maulana Rochman
+    </footer>
+  </div>
+</body>
+</html>
